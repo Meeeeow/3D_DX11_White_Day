@@ -1,0 +1,586 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="00. Main Application">
+      <UniqueIdentifier>{6b98cc5b-8ca7-41c0-9cbd-7837d11be294}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98. Defines">
+      <UniqueIdentifier>{0e479756-d44e-40d6-b7dc-0f7dd0b03f43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. ShaderFiles">
+      <UniqueIdentifier>{c524e2f9-66b7-41ce-a5f9-11cd487600cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Level">
+      <UniqueIdentifier>{f1fcfbf6-2890-4f32-894b-033be628e088}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Level\00. Loading">
+      <UniqueIdentifier>{2d44c7b7-c824-480a-9bd0-e447a4ba4ead}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Level\01. Logo">
+      <UniqueIdentifier>{091a2abc-1d7b-4363-983b-c15cfdfc60e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Level\00. Loading\Loader">
+      <UniqueIdentifier>{760d493c-be6a-4fc8-bf58-2e7616877c40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject">
+      <UniqueIdentifier>{c817530f-f123-458f-b4df-5868bd13635a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. BackGround">
+      <UniqueIdentifier>{08c16fd5-ddc6-4d0d-948f-c891b4d61db8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. BackGround\01. Screen">
+      <UniqueIdentifier>{556021f3-1ef5-436b-a80f-1c5b88d3b961}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\02. Camera">
+      <UniqueIdentifier>{452e04cd-6be8-46f9-8f0e-86c8e951cc0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\02. Camera\00. Camera">
+      <UniqueIdentifier>{99b04278-e30f-4a67-946a-b0eb444e9c4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99. Default">
+      <UniqueIdentifier>{d0e53af7-f8e2-4af1-9786-cf555e296413}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99. Default\00. Used Files">
+      <UniqueIdentifier>{d9c33aac-d4ba-42fd-a380-e4c526785f07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99. Default\01. Unused Files">
+      <UniqueIdentifier>{fc8b2b11-547d-4502-9885-5d2c06f0f686}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. BackGround\00. Terrain">
+      <UniqueIdentifier>{da72bd73-eefe-45d7-b77d-663fbe5c93b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. BackGround\01. Screen\01. LogoScreen">
+      <UniqueIdentifier>{7f90bce7-d0a5-44ae-8916-47df38ac5027}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. BackGround\01. Screen\00. Rect Base">
+      <UniqueIdentifier>{bc751411-0f42-4c28-8aed-ecfe5964623d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="96. LoadDatFiles">
+      <UniqueIdentifier>{a675eddb-367b-4373-a767-68b5d40fb2f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Model">
+      <UniqueIdentifier>{7749f4c0-13c1-41d5-8af1-e67f5a2c5e5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Model\00. Model Base">
+      <UniqueIdentifier>{98697ef7-2df1-43a6-b870-125d1711c993}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Model\01. Player">
+      <UniqueIdentifier>{139880ae-d4d7-4e6f-bfe5-202c2bb2edb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Model\03. Enemy">
+      <UniqueIdentifier>{7c9dfacc-6748-4f35-a448-3b451cba2da6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Model\03. Enemy\00. LeeBongGoo">
+      <UniqueIdentifier>{2d583317-902d-4d26-aea7-7a164d1981b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Model\03. Enemy\01. SonDalSu">
+      <UniqueIdentifier>{f790c837-7715-4de2-b953-99f5d2e795a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Model\02. Friendly">
+      <UniqueIdentifier>{86ddd75e-830b-4af2-9b0e-f8b991ea2a69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Model\02. Friendly\00. YooJiMin">
+      <UniqueIdentifier>{8ff28523-cda0-4efe-96b4-76aacbc08d25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Model\04. School Props">
+      <UniqueIdentifier>{d4d2dc78-ab0f-44db-83f0-b235d0713d89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\03. Mouse Pointer">
+      <UniqueIdentifier>{a68593ff-f136-4f51-b527-9c7c28520adf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="95. Position Manager">
+      <UniqueIdentifier>{aaba0f55-7bca-46bb-aca9-48f011b7d9ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="94. SoundMgr">
+      <UniqueIdentifier>{6190b028-0f69-45e6-a709-09158b230edf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Model\05. Using Props">
+      <UniqueIdentifier>{64ae988e-555d-450f-be11-043f0a3eb236}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Model\04. School Props\00. Default Model">
+      <UniqueIdentifier>{bb1c6d3e-5503-4953-ba3a-0131e98998cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Model\04. School Props\01. Defulat Door">
+      <UniqueIdentifier>{83d44adf-7640-4a01-b739-f0db5dd0f9c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Model\04. School Props\02. Default Light">
+      <UniqueIdentifier>{5b962a04-6896-447c-af98-97fe37019a18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Model\04. School Props\03. Default Light Controller">
+      <UniqueIdentifier>{821b9470-7c60-4bf8-b9c5-febdd0be637c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Model\04. School Props\04. Default Trigger">
+      <UniqueIdentifier>{2679d528-f69a-4538-9b9b-d3fd597a8b44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Model\05. Using Props\00. Carry Item">
+      <UniqueIdentifier>{0f1245e7-c8d6-44d9-b67d-5dac7fa4d540}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Model\05. Using Props\00. Carry Item\Ladder">
+      <UniqueIdentifier>{82c25bf1-e034-4982-bc1c-d0583ca87a8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Model\05. Using Props\00. Carry Item\WomanToiletLadder">
+      <UniqueIdentifier>{897cf2f5-cf4c-4f82-a6b6-76da9c391142}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Model\05. Using Props\00. Carry Item\WomanToiletLadder\Vent Event Collider">
+      <UniqueIdentifier>{9eb4187a-ff8d-43ff-905b-072583538a89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Model\05. Using Props\00. Carry Item\WomanToiletLadder\Vent Out Event Collider">
+      <UniqueIdentifier>{97a45ea0-4de5-4a59-b320-06ed0de7195a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Model\04. School Props\05. Default Door Lock">
+      <UniqueIdentifier>{6f075d96-89a9-41f2-9dad-942a452348c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Model\04. School Props\06. Default Door Talisman">
+      <UniqueIdentifier>{714993c8-d6f9-4e04-90f2-5844e27bc023}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Model\04. School Props\07. Talisman Case">
+      <UniqueIdentifier>{e2af3984-3ca5-47a3-8ee5-ccb679fbd7dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Model\04. School Props\08. DoorGuard">
+      <UniqueIdentifier>{58c547c6-5e88-4776-97e1-9a232d79dbdd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Model\03. Enemy\02. Pot">
+      <UniqueIdentifier>{ca4852ce-6145-4254-8fce-bf4d06e754b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Model\03. Enemy\02. Pot\BongGooPot">
+      <UniqueIdentifier>{2149463d-2a89-4e44-9bd7-52d941575a8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Model\05. Using Props\01. Event Fuse">
+      <UniqueIdentifier>{994aa401-16ed-4d94-988d-002dd32f4bde}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Model\05. Using Props\01. Event Fuse\00. Body">
+      <UniqueIdentifier>{cc96bef0-26e2-432f-8fce-fe60b543cc73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Model\05. Using Props\01. Event Fuse\01. Puzzle">
+      <UniqueIdentifier>{a182c49b-2e86-4ec5-8a52-35d73211bd77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. BackGround\02. Sky">
+      <UniqueIdentifier>{d47de650-85ca-473c-a512-a53c6e31ab9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Model\05. Using Props\00. Carry Item\Lighter">
+      <UniqueIdentifier>{95a1ec7e-3ddd-4ec4-a19d-b9df671c6d75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Model\04. School Props\09. Pots">
+      <UniqueIdentifier>{84c32117-11ce-4d8b-aa57-e895a2551e7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Model\04. School Props\09. Pots\00. Poison">
+      <UniqueIdentifier>{aba71c08-1a53-4aab-b4d3-744d61b1889f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Model\05. Using Props\01. Event Fuse\02. Valve">
+      <UniqueIdentifier>{6117d792-1d85-4bbb-9498-ec039bd1b02f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Model\04. School Props\09. Pots\01. Dead Pot">
+      <UniqueIdentifier>{f35e52a6-66b1-4eb5-8616-00c4a0300571}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="93. Tip Manager">
+      <UniqueIdentifier>{cd481c57-221a-4602-80ac-fd79bb604315}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. BackGround\03. TextBox">
+      <UniqueIdentifier>{6e776c0e-6f7f-49f4-b77f-34c74026fdc2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. BackGround\04. Dust">
+      <UniqueIdentifier>{4165bfa9-dda4-49ec-90b6-e45554a437a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. BackGround\05. Hit">
+      <UniqueIdentifier>{ad3c6fbf-ee38-4b69-a61c-08a867a53810}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Level\02. QASmoke">
+      <UniqueIdentifier>{98ba917f-6757-4916-93c0-ab565116f97f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Level\03. Maze">
+      <UniqueIdentifier>{cc2dad4f-607a-4174-b03a-a0a9d272e375}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Model\02. Friendly\01. MazeYooJiMin">
+      <UniqueIdentifier>{99d721cf-d472-4054-8aee-108b2cae21f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Model\04. School Props\10. Stone">
+      <UniqueIdentifier>{d6f7e77c-ec9b-41cb-9cf8-5a3f26e68371}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. BackGround\06. Maze">
+      <UniqueIdentifier>{08f658f7-ffc1-4562-8204-dfc79539d873}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. BackGround\07. BlackScreen">
+      <UniqueIdentifier>{08f596d8-2b67-4df8-b610-bdc11e1def42}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>99. Default\00. Used Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Client.h">
+      <Filter>99. Default\01. Unused Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>99. Default\01. Unused Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\MainApplication.h">
+      <Filter>00. Main Application</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>99. Default\01. Unused Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Client_Defines.h">
+      <Filter>98. Defines</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Client_Struct.h">
+      <Filter>98. Defines</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Level_Logo.h">
+      <Filter>01. Level\01. Logo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Level_Loading.h">
+      <Filter>01. Level\00. Loading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Level_Qasmoke.h">
+      <Filter>01. Level\02. QASmoke</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Loader.h">
+      <Filter>01. Level\00. Loading\Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\ModelObject.h">
+      <Filter>02. GameObject\00. Model\00. Model Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\LeeBongGoo.h">
+      <Filter>02. GameObject\00. Model\03. Enemy\00. LeeBongGoo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\LogoScreen.h">
+      <Filter>02. GameObject\01. BackGround\01. Screen\01. LogoScreen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\RectXYObject.h">
+      <Filter>02. GameObject\01. BackGround\01. Screen\00. Rect Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Camera_Debug.h">
+      <Filter>02. GameObject\02. Camera\00. Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\LeeHeeMin.h">
+      <Filter>02. GameObject\00. Model\01. Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Defines_Component.h">
+      <Filter>98. Defines</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Defines_Layer.h">
+      <Filter>98. Defines</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Defines_Object.h">
+      <Filter>98. Defines</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Terrain.h">
+      <Filter>02. GameObject\01. BackGround\00. Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\YooJiMin.h">
+      <Filter>02. GameObject\00. Model\02. Friendly\00. YooJiMin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\LoadDatFiles.h">
+      <Filter>96. LoadDatFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\DefaultModel.h">
+      <Filter>02. GameObject\00. Model\04. School Props\00. Default Model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\DefaultDoor.h">
+      <Filter>02. GameObject\00. Model\04. School Props\01. Defulat Door</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\MousePointer.h">
+      <Filter>02. GameObject\03. Mouse Pointer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\DefaultLight.h">
+      <Filter>02. GameObject\00. Model\04. School Props\02. Default Light</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\DefaultLightController.h">
+      <Filter>02. GameObject\00. Model\04. School Props\03. Default Light Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\PositionManager.h">
+      <Filter>95. Position Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\SoundMgr.h">
+      <Filter>94. SoundMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\SonDalSu.h">
+      <Filter>02. GameObject\00. Model\03. Enemy\01. SonDalSu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Ladder.h">
+      <Filter>02. GameObject\00. Model\05. Using Props\00. Carry Item\Ladder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\DefaultTriggerProps.h">
+      <Filter>02. GameObject\00. Model\04. School Props\04. Default Trigger</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\WomanToiletLadder.h">
+      <Filter>02. GameObject\00. Model\05. Using Props\00. Carry Item\WomanToiletLadder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\VentEventCollider.h">
+      <Filter>02. GameObject\00. Model\05. Using Props\00. Carry Item\WomanToiletLadder\Vent Event Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\VentOutEventCollider.h">
+      <Filter>02. GameObject\00. Model\05. Using Props\00. Carry Item\WomanToiletLadder\Vent Out Event Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\DefaultDoorLock.h">
+      <Filter>02. GameObject\00. Model\04. School Props\05. Default Door Lock</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\DefaultDoorTalisman.h">
+      <Filter>02. GameObject\00. Model\04. School Props\06. Default Door Talisman</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\TalismanCase.h">
+      <Filter>02. GameObject\00. Model\04. School Props\07. Talisman Case</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\DoorGuard.h">
+      <Filter>02. GameObject\00. Model\04. School Props\08. DoorGuard</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\BongGooPot.h">
+      <Filter>02. GameObject\00. Model\03. Enemy\02. Pot\BongGooPot</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\FuseBody.h">
+      <Filter>02. GameObject\00. Model\05. Using Props\01. Event Fuse\00. Body</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\PuzzleFirst.h">
+      <Filter>02. GameObject\00. Model\05. Using Props\01. Event Fuse\01. Puzzle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\PuzzleSecond.h">
+      <Filter>02. GameObject\00. Model\05. Using Props\01. Event Fuse\01. Puzzle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\PuzzleThird.h">
+      <Filter>02. GameObject\00. Model\05. Using Props\01. Event Fuse\01. Puzzle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\SkyBox.h">
+      <Filter>02. GameObject\01. BackGround\02. Sky</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Lighter.h">
+      <Filter>02. GameObject\00. Model\05. Using Props\00. Carry Item\Lighter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\HauntedPot.h">
+      <Filter>02. GameObject\00. Model\04. School Props\09. Pots</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Poison.h">
+      <Filter>02. GameObject\00. Model\04. School Props\09. Pots\00. Poison</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Valve.h">
+      <Filter>02. GameObject\00. Model\05. Using Props\01. Event Fuse\02. Valve</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\DeadHauntedPot.h">
+      <Filter>02. GameObject\00. Model\04. School Props\09. Pots\01. Dead Pot</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\TipManager.h">
+      <Filter>93. Tip Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\TextBox.h">
+      <Filter>02. GameObject\01. BackGround\03. TextBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Dust.h">
+      <Filter>02. GameObject\01. BackGround\04. Dust</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Maze.h">
+      <Filter>01. Level\03. Maze</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\MazeYooJiMin.h">
+      <Filter>02. GameObject\00. Model\02. Friendly\01. MazeYooJiMin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Stone.h">
+      <Filter>02. GameObject\00. Model\04. School Props\10. Stone</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\RectMaze.h">
+      <Filter>02. GameObject\01. BackGround\06. Maze</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Hit.h">
+      <Filter>02. GameObject\01. BackGround\05. Hit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\BlackScrren.h">
+      <Filter>02. GameObject\01. BackGround\07. BlackScreen</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Client.cpp">
+      <Filter>99. Default\00. Used Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>99. Default\01. Unused Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\MainApplication.cpp">
+      <Filter>00. Main Application</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Level_Logo.cpp">
+      <Filter>01. Level\01. Logo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Level_Loading.cpp">
+      <Filter>01. Level\00. Loading</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Level_Qasmoke.cpp">
+      <Filter>01. Level\02. QASmoke</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Loader.cpp">
+      <Filter>01. Level\00. Loading\Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\ModelObject.cpp">
+      <Filter>02. GameObject\00. Model\00. Model Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\LeeBongGoo.cpp">
+      <Filter>02. GameObject\00. Model\03. Enemy\00. LeeBongGoo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\LogoScreen.cpp">
+      <Filter>02. GameObject\01. BackGround\01. Screen\01. LogoScreen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\RectXYObject.cpp">
+      <Filter>02. GameObject\01. BackGround\01. Screen\00. Rect Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Camera_Debug.cpp">
+      <Filter>02. GameObject\02. Camera\00. Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\LeeHeeMin.cpp">
+      <Filter>02. GameObject\00. Model\01. Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Terrain.cpp">
+      <Filter>02. GameObject\01. BackGround\00. Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\YooJiMin.cpp">
+      <Filter>02. GameObject\00. Model\02. Friendly\00. YooJiMin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\LoadDatFiles.cpp">
+      <Filter>96. LoadDatFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\DefaultModel.cpp">
+      <Filter>02. GameObject\00. Model\04. School Props\00. Default Model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\DefaultDoor.cpp">
+      <Filter>02. GameObject\00. Model\04. School Props\01. Defulat Door</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\MousePointer.cpp">
+      <Filter>02. GameObject\03. Mouse Pointer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\DefaultLight.cpp">
+      <Filter>02. GameObject\00. Model\04. School Props\02. Default Light</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\DefaultLightController.cpp">
+      <Filter>02. GameObject\00. Model\04. School Props\03. Default Light Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\PositionManager.cpp">
+      <Filter>95. Position Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\SoundMgr.cpp">
+      <Filter>94. SoundMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\SonDalSu.cpp">
+      <Filter>02. GameObject\00. Model\03. Enemy\01. SonDalSu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Ladder.cpp">
+      <Filter>02. GameObject\00. Model\05. Using Props\00. Carry Item\Ladder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\DefaultTriggerProps.cpp">
+      <Filter>02. GameObject\00. Model\04. School Props\04. Default Trigger</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\WomanToiletLadder.cpp">
+      <Filter>02. GameObject\00. Model\05. Using Props\00. Carry Item\WomanToiletLadder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\VentEventCollider.cpp">
+      <Filter>02. GameObject\00. Model\05. Using Props\00. Carry Item\WomanToiletLadder\Vent Event Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\VentOutEventCollider.cpp">
+      <Filter>02. GameObject\00. Model\05. Using Props\00. Carry Item\WomanToiletLadder\Vent Out Event Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\DefaultDoorLock.cpp">
+      <Filter>02. GameObject\00. Model\04. School Props\05. Default Door Lock</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\DefaultDoorTalisman.cpp">
+      <Filter>02. GameObject\00. Model\04. School Props\06. Default Door Talisman</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\TalismanCase.cpp">
+      <Filter>02. GameObject\00. Model\04. School Props\07. Talisman Case</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\DoorGuard.cpp">
+      <Filter>02. GameObject\00. Model\04. School Props\08. DoorGuard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\BongGooPot.cpp">
+      <Filter>02. GameObject\00. Model\03. Enemy\02. Pot\BongGooPot</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\FuseBody.cpp">
+      <Filter>02. GameObject\00. Model\05. Using Props\01. Event Fuse\00. Body</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\PuzzleFirst.cpp">
+      <Filter>02. GameObject\00. Model\05. Using Props\01. Event Fuse\01. Puzzle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\PuzzleSecond.cpp">
+      <Filter>02. GameObject\00. Model\05. Using Props\01. Event Fuse\01. Puzzle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\PuzzleThird.cpp">
+      <Filter>02. GameObject\00. Model\05. Using Props\01. Event Fuse\01. Puzzle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\SkyBox.cpp">
+      <Filter>02. GameObject\01. BackGround\02. Sky</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Lighter.cpp">
+      <Filter>02. GameObject\00. Model\05. Using Props\00. Carry Item\Lighter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\HauntedPot.cpp">
+      <Filter>02. GameObject\00. Model\04. School Props\09. Pots</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Poison.cpp">
+      <Filter>02. GameObject\00. Model\04. School Props\09. Pots\00. Poison</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Valve.cpp">
+      <Filter>02. GameObject\00. Model\05. Using Props\01. Event Fuse\02. Valve</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\DeadHauntedPot.cpp">
+      <Filter>02. GameObject\00. Model\04. School Props\09. Pots\01. Dead Pot</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\TipManager.cpp">
+      <Filter>93. Tip Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\TextBox.cpp">
+      <Filter>02. GameObject\01. BackGround\03. TextBox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Dust.cpp">
+      <Filter>02. GameObject\01. BackGround\04. Dust</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Maze.cpp">
+      <Filter>01. Level\03. Maze</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\MazeYooJiMin.cpp">
+      <Filter>02. GameObject\00. Model\02. Friendly\01. MazeYooJiMin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Stone.cpp">
+      <Filter>02. GameObject\00. Model\04. School Props\10. Stone</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\RectMaze.cpp">
+      <Filter>02. GameObject\01. BackGround\06. Maze</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Hit.cpp">
+      <Filter>02. GameObject\01. BackGround\05. Hit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\BlackScrren.cpp">
+      <Filter>02. GameObject\01. BackGround\07. BlackScreen</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Client.ico">
+      <Filter>99. Default\01. Unused Files</Filter>
+    </Image>
+    <Image Include="small.ico">
+      <Filter>99. Default\01. Unused Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Client.rc">
+      <Filter>99. Default\01. Unused Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt">
+      <Filter>99. Default</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_Model.hlsl">
+      <Filter>97. ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_Rect.hlsl">
+      <Filter>97. ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_Terrain.hlsl">
+      <Filter>97. ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_Cube.hlsl">
+      <Filter>97. ShaderFiles</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Bin\ShaderFiles\Shader_Defines.hlsli">
+      <Filter>97. ShaderFiles</Filter>
+    </None>
+  </ItemGroup>
+</Project>

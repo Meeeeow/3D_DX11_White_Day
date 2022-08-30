@@ -1,0 +1,220 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="00. MainFrame">
+      <UniqueIdentifier>{699e6a8f-06dd-4b9e-ac58-1b219857125d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Document">
+      <UniqueIdentifier>{e2119cfb-5026-4704-86ed-42e73e7cb937}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. View">
+      <UniqueIdentifier>{19900c29-e917-4003-98b7-81ccaad44094}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99. Default">
+      <UniqueIdentifier>{62957ce3-45d9-45bf-aa53-1dea92af82f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99. Default\00. Used">
+      <UniqueIdentifier>{ed933aad-7d46-48a7-bc6b-023feec4e4de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99. Default\01. Unused">
+      <UniqueIdentifier>{d0966ac4-4608-4d17-8705-9ec495ae1aac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99. Default\02. Resource">
+      <UniqueIdentifier>{baa94a6d-37c1-45e2-aa1c-ca732843c4b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. View\00. View">
+      <UniqueIdentifier>{94801ab3-68a9-45e1-aec9-a2d4ee34cfa3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. View\01. Form">
+      <UniqueIdentifier>{5d4c1298-6291-4d18-9bf8-44abff894572}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. View\01. Form\00. FormView">
+      <UniqueIdentifier>{b3d9db9d-396e-4ecc-8d1e-85440a5f02b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObject">
+      <UniqueIdentifier>{aa06f7a0-9d28-477d-9358-a51b9bb0ecc6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObject\00. ToolObject">
+      <UniqueIdentifier>{bac4e204-3416-433c-880d-9ce20b93e15a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObject\01. Camera">
+      <UniqueIdentifier>{02656c49-0f40-4ce6-95ef-194a1b2d289b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObject\00. ToolObject\00. Base">
+      <UniqueIdentifier>{6ca75d31-a1f4-4b02-9368-f8d5c973cd0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObject\00. ToolObject\01. Model">
+      <UniqueIdentifier>{5d10a5e4-f63e-4eea-96d9-b8c58102c22c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98. FileInfo">
+      <UniqueIdentifier>{aa68890f-f2c7-4479-bb48-51221e01759d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. View\01. Form\01. Terrain">
+      <UniqueIdentifier>{78708fb3-b91a-4c7c-abd9-e71a12c215b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. View\01. Form\02. Mesh">
+      <UniqueIdentifier>{47aaf954-39ab-4cdd-9625-c0e3b692af59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObject\00. ToolObject\02. Terrain">
+      <UniqueIdentifier>{d3bb9c73-b5c1-434b-9e65-241b0ac3f929}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. View\01. Form\03. Effect">
+      <UniqueIdentifier>{8b7ddd3c-f0c1-42f5-9e33-4eb5b31b969c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. Shader">
+      <UniqueIdentifier>{3f666655-b6df-4a9a-9d6f-c526fbb7eaa9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. View\01. Form\04. NavMesh">
+      <UniqueIdentifier>{d3f000ec-a32a-4d2e-b2c0-97649e031a4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameObject\00. ToolObject\03. NavMesh">
+      <UniqueIdentifier>{a80c8bbe-fc56-4f51-98c3-98818f1622a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="96. MultiThreadFunc">
+      <UniqueIdentifier>{24c445fd-6620-471c-8118-e8e06584dbf6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MainFrm.h">
+      <Filter>00. MainFrame</Filter>
+    </ClInclude>
+    <ClInclude Include="ToolDoc.h">
+      <Filter>01. Document</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>99. Default\00. Used</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>99. Default\00. Used</Filter>
+    </ClInclude>
+    <ClInclude Include="Tool.h">
+      <Filter>99. Default\01. Unused</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>99. Default\01. Unused</Filter>
+    </ClInclude>
+    <ClInclude Include="ToolView.h">
+      <Filter>02. View\00. View</Filter>
+    </ClInclude>
+    <ClInclude Include="Form.h">
+      <Filter>02. View\01. Form\00. FormView</Filter>
+    </ClInclude>
+    <ClInclude Include="ToolCamera.h">
+      <Filter>03. GameObject\01. Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="ToolBase.h">
+      <Filter>03. GameObject\00. ToolObject\00. Base</Filter>
+    </ClInclude>
+    <ClInclude Include="ToolModel.h">
+      <Filter>03. GameObject\00. ToolObject\01. Model</Filter>
+    </ClInclude>
+    <ClInclude Include="FileInfo.h">
+      <Filter>98. FileInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgMesh.h">
+      <Filter>02. View\01. Form\02. Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgTerrain.h">
+      <Filter>02. View\01. Form\01. Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="ToolTerrain.h">
+      <Filter>03. GameObject\00. ToolObject\02. Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgEffect.h">
+      <Filter>02. View\01. Form\03. Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Dlg_NavMesh.h">
+      <Filter>02. View\01. Form\04. NavMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="ToolNavMesh.h">
+      <Filter>03. GameObject\00. ToolObject\03. NavMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="MultiThreadFunc.h">
+      <Filter>96. MultiThreadFunc</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>00. MainFrame</Filter>
+    </ClCompile>
+    <ClCompile Include="ToolDoc.cpp">
+      <Filter>01. Document</Filter>
+    </ClCompile>
+    <ClCompile Include="Tool.cpp">
+      <Filter>99. Default\01. Unused</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>99. Default\01. Unused</Filter>
+    </ClCompile>
+    <ClCompile Include="ToolView.cpp">
+      <Filter>02. View\00. View</Filter>
+    </ClCompile>
+    <ClCompile Include="Form.cpp">
+      <Filter>02. View\01. Form\00. FormView</Filter>
+    </ClCompile>
+    <ClCompile Include="ToolCamera.cpp">
+      <Filter>03. GameObject\01. Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="ToolBase.cpp">
+      <Filter>03. GameObject\00. ToolObject\00. Base</Filter>
+    </ClCompile>
+    <ClCompile Include="ToolModel.cpp">
+      <Filter>03. GameObject\00. ToolObject\01. Model</Filter>
+    </ClCompile>
+    <ClCompile Include="FileInfo.cpp">
+      <Filter>98. FileInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgMesh.cpp">
+      <Filter>02. View\01. Form\02. Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgTerrain.cpp">
+      <Filter>02. View\01. Form\01. Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="ToolTerrain.cpp">
+      <Filter>03. GameObject\00. ToolObject\02. Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgEffect.cpp">
+      <Filter>02. View\01. Form\03. Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Dlg_NavMesh.cpp">
+      <Filter>02. View\01. Form\04. NavMesh</Filter>
+    </ClCompile>
+    <ClCompile Include="ToolNavMesh.cpp">
+      <Filter>03. GameObject\00. ToolObject\03. NavMesh</Filter>
+    </ClCompile>
+    <ClCompile Include="MultiThreadFunc.cpp">
+      <Filter>96. MultiThreadFunc</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\Tool.ico">
+      <Filter>99. Default\02. Resource</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>99. Default\02. Resource</Filter>
+    </Image>
+    <Image Include="res\ToolDoc.ico">
+      <Filter>99. Default\02. Resource</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Tool.rc">
+      <Filter>99. Default\02. Resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\Tool.rc2">
+      <Filter>99. Default\02. Resource</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt">
+      <Filter>99. Default\01. Unused</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="Shader_NotUsing.hlsl">
+      <Filter>97. Shader</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>
